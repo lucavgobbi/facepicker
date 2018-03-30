@@ -19,8 +19,8 @@ namespace FacePicker
 {
     public static class PickOne
     {
-        private const string FaceServiceKey = "dfd87111a1444808aeb5a68fbfad86c8";
-        private const string BlobConnectionString = "DefaultEndpointsProtocol=https;AccountName=facepicker;AccountKey=Bp8mIgtveuLw37d15uYi/zddpSHrEqSy7T1dy86DMAmRIfjVtvTxuqMEIM+lQFkX5G6C0fwzqotzum8YrZyYnQ==;EndpointSuffix=core.windows.net";
+        private const string FaceServiceKey = "";
+        private const string BlobConnectionString = "";
 
         [FunctionName("PickOne")]
         public static async Task<IActionResult> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)]HttpRequest req, TraceWriter log)
